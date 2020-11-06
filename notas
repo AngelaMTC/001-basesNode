@@ -1,0 +1,38 @@
+
+
+// const fs = require('fs'); //Se importa el paquete de manipulación de archivos.
+
+// let base = 2;
+// let tabla = '';
+
+// for(let i=1; i<=10; i++){
+//     // clg enter:
+//     // console.log(base + 'x' + i + '=' + base * i); //Primera versión.
+//     // Llaves invertidas (``) Alt Gr + }.
+//     // console.log(`${base} x ${i} = ${base * i}`); //Segunda versión.
+//     tabla += tabla + `${base} x ${i} = ${base * i}\n`; //Tercera versión (String).
+// }
+// // Se crea un archivo -- nombre del archivo -- lo que dice el archivo
+// fs.watchFile(`tablas/tabla-2.txt`, 'Aquí se muestra la tabla del 2', tabla, (err) => { //--que pasa si hay un error.
+//     if(err) throw err; //El if sin operador simepre será true. throw=envía.
+//     console.log(`El archivo tabla-2.txt ha sido generado con éxito.`);
+//     // Selecciono + Alt Gr + llave que cierra.
+// });
+
+// Tabla de multiplicar del 2.
+
+// console: node app.js + enter.
+// npm (NODE PACKAGE MANAGEMT) init + enter.
+// description: App para multiplicar.
+// entry point + enter.
+// test command + enter.
+// git + enter.
+// keywords: Multiplicación, tabla.
+// Autor: ÁngelaTC.
+// license: "ISC".
+// yes.
+
+//  npm install nodemon -g --save
+
+// Corroborar:node app.js
+// nodemon app.js
